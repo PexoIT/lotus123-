@@ -1,0 +1,26 @@
+{
+  "name": "Lotus 1-2-3 Millennium Edition",
+  "short_name": "Lotus 1-2-3",
+  "description": "Lotus 1-2-3 Millennium Edition 9.8 - Spreadsheet Application",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#d4d0c8",
+  "theme_color": "#000080",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "New Workbook",
+      "description": "Start a new spreadsheet",
+      "url": "./index.html?new=1"
+    }
+  ]
+}
